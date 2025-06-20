@@ -1,0 +1,29 @@
+{
+    "name": "lotuslabtask",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "build": "tsc",
+        "dev": "nodemon"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/express": "^5.0.3",
+        "@types/node": "^24.0.3",
+        "@types/winston": "^2.4.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "joi": "^17.13.3",
+        "mysql2": "^3.14.1",
+        "nodemon": "^3.1.10",
+        "winston": "^3.17.0"
+    }
+}
